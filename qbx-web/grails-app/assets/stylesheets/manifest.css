@@ -1,0 +1,18 @@
+/*
+*=require_tree bootstrap
+*=require css/select2
+*=require_tree css
+*/
+
+.btn-link_disabled {
+    pointer-events: none;
+    opacity: .35;
+    cursor: not-allowed;
+}
+
+.canvas_hidden {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    height: 0;
+}

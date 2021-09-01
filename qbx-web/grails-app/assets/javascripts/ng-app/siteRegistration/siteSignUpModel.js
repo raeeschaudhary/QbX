@@ -1,0 +1,1 @@
+var siteSignUpModule = angular.module('siteSignUp', ['dialogs', 'ui.bootstrap']);

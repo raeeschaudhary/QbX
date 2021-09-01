@@ -1,0 +1,20 @@
+
+h1. getCcs
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.getCcs()
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[]

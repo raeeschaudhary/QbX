@@ -1,0 +1,16 @@
+//= require js/jquery-1.10.2.min
+//= require_tree cptTest
+//= require angular/angular
+//= require_tree angular
+//= require_tree bootstrap
+//= require_tree date-picker
+//= require grails-default
+//= require scaffolding
+//= require ng-app/test/CPTTestModel
+//= require_tree ng-app/test
+//= require ng-app/siteRegistration/siteSignUpModel
+//= require_tree ng-app/siteRegistration
+//= require ng-app/report/reportModel
+//= require ng-app/report/reportController
+//= require js/select2
+//= require js/site

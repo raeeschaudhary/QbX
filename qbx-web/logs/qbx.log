@@ -1,0 +1,119 @@
+2014-05-14 22:22:47,824 [main] INFO  (grails.plugin.webxml.WebxmlGrailsPlugin) - Loading default config file: class DefaultWebXmlConfig
+2014-05-14 22:22:47,884 [main] WARN  (grails.plugin.webxml.WebxmlGrailsPlugin) - Did not find application config file: WebXmlConfig
+2014-05-14 22:22:49,946 [main] INFO  (grails.plugin.webxml.WebxmlGrailsPlugin) - Loading default config file: class DefaultWebXmlConfig
+2014-05-14 22:22:49,959 [main] WARN  (grails.plugin.webxml.WebxmlGrailsPlugin) - Did not find application config file: WebXmlConfig
+2014-05-14 22:22:51,677 [main] INFO  (org.apache.coyote.http11.Http11Protocol) - Initializing ProtocolHandler ["http-bio-8080"]
+2014-05-14 22:22:51,774 [main] INFO  (org.apache.catalina.core.StandardService) - Starting service Tomcat
+2014-05-14 22:22:51,775 [main] INFO  (org.apache.catalina.core.StandardEngine) - Starting Servlet Engine: Apache Tomcat/7.0.42
+2014-05-14 22:22:52,037 [localhost-startStop-1] INFO  (org.apache.catalina.startup.ContextConfig) - No global web.xml found
+2014-05-14 22:22:52,265 [localhost-startStop-1] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/qbx-web]) - Initializing Spring root WebApplicationContext
+2014-05-14 22:23:00,886 [localhost-startStop-1] INFO  (grails.plugin.cache.CacheBeanPostProcessor) - postProcessBeanDefinitionRegistry start
+2014-05-14 22:23:00,890 [localhost-startStop-1] INFO  (grails.plugin.cache.CacheBeanPostProcessor) - postProcessBeanFactory
+2014-05-14 22:23:02,395 [localhost-startStop-1] WARN  (net.sf.ehcache.config.ConfigurationFactory) - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/Raees/.grails/ivy-cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.4.6.jar!/ehcache-failsafe.xml
+2014-05-14 22:23:07,560 [localhost-startStop-1] INFO  (org.codehaus.groovy.grails.scaffolding.DefaultGrailsTemplateGenerator) - Scaffolding template generator set to use resource loader org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@4943f9d2: startup date [Wed May 14 22:23:00 PKT 2014]; parent: Root WebApplicationContext
+2014-05-14 22:23:23,935 [localhost-startStop-1] WARN  (liquibase) - modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2014-05-14 22:23:23,936 [localhost-startStop-1] WARN  (liquibase) - modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2014-05-14 22:23:23,936 [localhost-startStop-1] WARN  (liquibase) - modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2014-05-14 22:23:23,938 [localhost-startStop-1] INFO  (grails.plugin.databasemigration.MigrationRunner) - Outstanding migrations detected for DataSource 'dataSource': [changelog.groovy]
+2014-05-14 22:23:23,954 [localhost-startStop-1] INFO  (grails.plugin.databasemigration.MigrationRunner) - Running script 'changelog.groovy'
+2014-05-14 22:23:24,845 [localhost-startStop-1] INFO  (liquibase) - Successfully acquired change log lock
+2014-05-14 22:23:30,687 [localhost-startStop-1] INFO  (liquibase) - Creating database history table with name: `DATABASECHANGELOG`
+2014-05-14 22:23:31,154 [localhost-startStop-1] INFO  (liquibase) - Reading from `DATABASECHANGELOG`
+2014-05-14 22:23:31,336 [localhost-startStop-1] WARN  (liquibase) - modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2014-05-14 22:23:31,337 [localhost-startStop-1] WARN  (liquibase) - modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2014-05-14 22:23:31,337 [localhost-startStop-1] WARN  (liquibase) - modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2014-05-14 22:23:31,631 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-1::ami (generated) ran successfully in 270ms
+2014-05-14 22:23:32,065 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-2::ami (generated) ran successfully in 314ms
+2014-05-14 22:23:32,409 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-3::ami (generated) ran successfully in 262ms
+2014-05-14 22:23:32,710 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-4::ami (generated) ran successfully in 250ms
+2014-05-14 22:23:33,021 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-5::ami (generated) ran successfully in 265ms
+2014-05-14 22:23:33,431 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-6::ami (generated) ran successfully in 354ms
+2014-05-14 22:23:35,131 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-7::ami (generated) ran successfully in 1644ms
+2014-05-14 22:23:35,787 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-8::ami (generated) ran successfully in 437ms
+2014-05-14 22:23:36,188 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-9::ami (generated) ran successfully in 352ms
+2014-05-14 22:23:36,588 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-10::ami (generated) ran successfully in 365ms
+2014-05-14 22:23:37,192 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-11::ami (generated) ran successfully in 557ms
+2014-05-14 22:23:37,546 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-24::ami (generated) ran successfully in 313ms
+2014-05-14 22:23:37,835 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-25::ami (generated) ran successfully in 247ms
+2014-05-14 22:23:38,135 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-26::ami (generated) ran successfully in 257ms
+2014-05-14 22:23:38,380 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-27::ami (generated) ran successfully in 191ms
+2014-05-14 22:23:38,669 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-28::ami (generated) ran successfully in 247ms
+2014-05-14 22:23:39,058 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-29::ami (generated) ran successfully in 267ms
+2014-05-14 22:23:39,424 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-30::ami (generated) ran successfully in 324ms
+2014-05-14 22:23:39,813 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-31::ami (generated) ran successfully in 324ms
+2014-05-14 22:23:40,170 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-32::ami (generated) ran successfully in 315ms
+2014-05-14 22:23:40,535 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-33::ami (generated) ran successfully in 312ms
+2014-05-14 22:23:40,880 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-34::ami (generated) ran successfully in 303ms
+2014-05-14 22:23:41,270 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-35::ami (generated) ran successfully in 335ms
+2014-05-14 22:23:41,580 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-36::ami (generated) ran successfully in 269ms
+2014-05-14 22:23:42,024 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-37::ami (generated) ran successfully in 399ms
+2014-05-14 22:23:42,425 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-38::ami (generated) ran successfully in 258ms
+2014-05-14 22:23:42,862 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-39::ami (generated) ran successfully in 395ms
+2014-05-14 22:23:43,191 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-40::ami (generated) ran successfully in 258ms
+2014-05-14 22:23:43,910 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-12::ami (generated) ran successfully in 676ms
+2014-05-14 22:23:44,600 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-13::ami (generated) ran successfully in 656ms
+2014-05-14 22:23:45,493 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-14::ami (generated) ran successfully in 837ms
+2014-05-14 22:23:46,377 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-15::ami (generated) ran successfully in 820ms
+2014-05-14 22:23:47,067 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-16::ami (generated) ran successfully in 644ms
+2014-05-14 22:23:47,890 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-17::ami (generated) ran successfully in 777ms
+2014-05-14 22:23:48,868 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-18::ami (generated) ran successfully in 932ms
+2014-05-14 22:23:49,856 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-19::ami (generated) ran successfully in 899ms
+2014-05-14 22:23:50,554 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-20::ami (generated) ran successfully in 651ms
+2014-05-14 22:23:51,366 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-21::ami (generated) ran successfully in 775ms
+2014-05-14 22:23:52,277 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-22::ami (generated) ran successfully in 874ms
+2014-05-14 22:23:53,263 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391116941367-23::ami (generated) ran successfully in 948ms
+2014-05-14 22:23:53,577 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391582626185-1::ami (generated) ran successfully in 239ms
+2014-05-14 22:23:54,357 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391582626185-3::ami (generated) ran successfully in 673ms
+2014-05-14 22:23:55,014 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391582626185-4::ami (generated) ran successfully in 530ms
+2014-05-14 22:23:56,958 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391582626185-2::ami (generated) ran successfully in 1813ms
+2014-05-14 22:23:57,787 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391780408175-1::ami (generated) ran successfully in 750ms
+2014-05-14 22:23:58,529 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391780408175-2::ami (generated) ran successfully in 608ms
+2014-05-14 22:23:59,424 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391780408175-3::ami (generated) ran successfully in 843ms
+2014-05-14 22:23:59,947 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1391780408175-4::ami (generated) ran successfully in 477ms
+2014-05-14 22:24:00,658 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392061406348-1::ami (generated) ran successfully in 665ms
+2014-05-14 22:24:01,207 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392110887249-1::baxxabit (generated) ran successfully in 503ms
+2014-05-14 22:24:02,140 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392112938244-1::baxxabit (generated) ran successfully in 885ms
+2014-05-14 22:24:02,333 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392112938244-2::baxxabit (generated) ran successfully in 144ms
+2014-05-14 22:24:02,704 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392112938244-4::baxxabit (generated) ran successfully in 293ms
+2014-05-14 22:24:03,357 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392112938244-5::baxxabit (generated) ran successfully in 609ms
+2014-05-14 22:24:04,359 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392112938244-3::baxxabit (generated) ran successfully in 944ms
+2014-05-14 22:24:04,529 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392112938244-6::baxxabit ran successfully in 7ms
+2014-05-14 22:24:05,129 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392122198584-2::baxxabit (generated) ran successfully in 491ms
+2014-05-14 22:24:05,619 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392127510428-1::baxxabit (generated) ran successfully in 442ms
+2014-05-14 22:24:06,130 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392127510428-2::baxxabit (generated) ran successfully in 464ms
+2014-05-14 22:24:06,647 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392127510428-3::baxxabit (generated) ran successfully in 469ms
+2014-05-14 22:24:07,230 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392127510428-4::baxxabit (generated) ran successfully in 546ms
+2014-05-14 22:24:07,819 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392127510428-5::baxxabit (generated) ran successfully in 453ms
+2014-05-14 22:24:08,490 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392127510428-6::baxxabit (generated) ran successfully in 623ms
+2014-05-14 22:24:09,166 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392127510428-7::baxxabit (generated) ran successfully in 638ms
+2014-05-14 22:24:09,685 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392208529936-1::baxxabit (generated) ran successfully in 478ms
+2014-05-14 22:24:10,332 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392208529936-2::baxxabit (generated) ran successfully in 611ms
+2014-05-14 22:24:10,933 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392208529936-3::baxxabit (generated) ran successfully in 556ms
+2014-05-14 22:24:10,993 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392375640061-0::baxxabit ran successfully in 5ms
+2014-05-14 22:24:11,577 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1392375640061-1::baxxabit (generated) ran successfully in 547ms
+2014-05-14 22:24:12,098 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393070357528-1::ami (generated) ran successfully in 476ms
+2014-05-14 22:24:12,692 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393417779588-2::ami (generated) ran successfully in 548ms
+2014-05-14 22:24:13,258 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393417779588-3::ami (generated) ran successfully in 503ms
+2014-05-14 22:24:13,397 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393417779588-4::ami (generated) ran successfully in 53ms
+2014-05-14 22:24:13,934 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393417779588-5::ami (generated) ran successfully in 490ms
+2014-05-14 22:24:14,003 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393417779588-6::ami (generated) ran successfully in 27ms
+2014-05-14 22:24:14,674 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393417779588-7::ami (generated) ran successfully in 608ms
+2014-05-14 22:24:15,199 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393621399173-1::ami (generated) ran successfully in 477ms
+2014-05-14 22:24:15,955 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393621399173-2::ami (generated) ran successfully in 711ms
+2014-05-14 22:24:16,457 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393852588132-1::baxxabit (generated) ran successfully in 458ms
+2014-05-14 22:24:17,156 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393852588132-2::baxxabit (generated) ran successfully in 659ms
+2014-05-14 22:24:17,813 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393852588132-5::baxxabit (generated) ran successfully in 615ms
+2014-05-14 22:24:18,424 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1393852588132-6::baxxabit (generated) ran successfully in 558ms
+2014-05-14 22:24:19,012 [localhost-startStop-1] INFO  (liquibase) - ChangeSet changelog.groovy::1395380394777-1::ami (generated) ran successfully in 548ms
+2014-05-14 22:24:19,085 [localhost-startStop-1] INFO  (liquibase) - Successfully released change log lock
+2014-05-14 22:24:19,842 [localhost-startStop-1] INFO  (org.codehaus.groovy.grails.web.context.GrailsConfigUtils) - [GrailsContextLoader] Grails application loaded.
+2014-05-14 22:24:22,724 [localhost-startStop-1] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/qbx-web]) - Initializing Spring FrameworkServlet 'grails'
+2014-05-14 22:24:22,846 [main] INFO  (org.apache.coyote.http11.Http11Protocol) - Starting ProtocolHandler ["http-bio-8080"]
+2014-05-14 22:27:17,801 [http-bio-8080-exec-3] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/qbx-web]) - Initializing Spring FrameworkServlet 'gsp'
+2014-05-14 22:27:17,802 [http-bio-8080-exec-3] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/qbx-web]) - GSP servlet initialized
+2014-05-14 22:28:19,043 [Thread-12] INFO  (org.apache.coyote.http11.Http11Protocol) - Pausing ProtocolHandler ["http-bio-8080"]
+2014-05-14 22:28:19,096 [Thread-12] INFO  (org.apache.catalina.core.StandardService) - Stopping service Tomcat
+2014-05-14 22:28:19,107 [localhost-startStop-2] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/qbx-web]) - Destroying Spring FrameworkServlet 'grails'
+2014-05-14 22:28:19,367 [localhost-startStop-2] INFO  (org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/qbx-web]) - Destroying Spring FrameworkServlet 'gsp'
+2014-05-14 22:28:19,374 [Thread-12] INFO  (org.apache.coyote.http11.Http11Protocol) - Stopping ProtocolHandler ["http-bio-8080"]
+2014-05-14 22:28:19,377 [Thread-12] INFO  (org.apache.coyote.http11.Http11Protocol) - Destroying ProtocolHandler ["http-bio-8080"]

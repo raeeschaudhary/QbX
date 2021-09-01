@@ -1,0 +1,228 @@
+/*  */
+/*fieldset {*/
+	/*border: none;*/
+	/*border-to.inp_field: 1px solid #d8d9de;*/
+	/*padding: 24px 0 11px 0;*/
+/*}*/
+/*fieldset:first-child {*/
+	/*border: none;*/
+	/*padding-to.inp_field: 0;*/
+/*}*/
+/*fieldset p {*/
+	/*position: relative;*/
+	/*margin-bottom: 12px;*/
+/*}*/
+/*label + p,*/
+/*input + p {*/
+	/*margin-to.inp_field: 20px;*/
+/*}*/
+
+
+input[type=radio],
+input[type=checkbox] {
+	padding: 0;
+	margin: 0;
+	height: 24px;
+	width: 24px;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+}
+.inp_field {
+	position: relative;
+	display: inline-block;
+	margin-right: 14px;
+}
+.inp_field > label {
+	display: inline-block;
+	padding: 0 0 0 35px;
+	-moz-transition: color 1s ease;
+	-o-transition: color 1s ease;
+	-webkit-transition: color 1s ease;
+	transition: color 1s ease;
+}
+.inp_field:not(#foo) > input:hover + label,
+.inp_field:not(#foo) > input:focus + label,
+.inp_field:not(#foo) > input + label:hover,
+.inp_field:not(#foo) > input:focus + label {
+	cursor: pointer;
+}
+.inp_field:not(#foo) > input[type=radio] + label,
+.inp_field:not(#foo) > input[type=checkbox] + label {
+	background: url("../images/gr_custom-inputs.png") no-repeat;
+	height: 24px;
+	padding-top: 2px;
+}
+.inp_field:not(#foo) > input[type=radio] + label {
+	background-position: 0 -173px;
+}
+/* Checked styles */
+.inp_field:not(#foo) > input[type=radio]:checked + label {
+	background-position: 0 -215px;
+}
+.inp_field:not(#foo) > input[type=checkbox]:checked + label {
+	background-position: 0 -130px;
+}
+/*.inp_field:not(#foo) > input[type=checkbox]:hover:checked + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:focus:checked + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:checked + label:hover,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:focus:checked + label {*/
+	/*background-position: 0 -100px;*/
+/*}*/
+/*.inp_field:not(#foo) > input[type=radio]:hover:checked + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:focus:checked + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:checked + label:hover,*/
+/*.inp_field:not(#foo) > input[type=radio]:focus:checked + label {*/
+	/*background-position: 0 -259px;*/
+/*}*/
+
+/* Hover & Focus styles */
+/*.inp_field:not(#foo) > input[type=checkbox]:hover + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:focus + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox] + label:hover {*/
+	/*background-position: 0 -20px;*/
+/*}*/
+/*.inp_field:not(#foo) > input[type=radio]:hover + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:focus + label,*/
+/*.inp_field:not(#foo) > input[type=radio] + label:hover {*/
+	/*background-position: 0 -179px;*/
+/*}*/
+
+/* Active styles */
+/*.inp_field:not(#foo) > input[type=checkbox]:active + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox] + label:hover:active {*/
+	/*background-position: 0 -40px;*/
+/*}*/
+/*.inp_field:not(#foo) > input[type=radio]:active + label,*/
+/*.inp_field:not(#foo) > input[type=radio] + label:hover:active {*/
+	/*background-position: 0 -199px;*/
+/*}*/
+/*.inp_field:not(#foo) > input[type=checkbox]:active:checked + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:checked + label:hover:active {*/
+	/*background-position: 0 -120px;*/
+/*}*/
+/*.inp_field:not(#foo) > input[type=radio]:active:checked + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:checked + label:hover:active {*/
+	/*background-position: 0 -279px;*/
+/*}*/
+
+/* Disabled styles */
+/*.inp_field:not(#foo) > input[type=checkbox]:disabled + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:hover:disabled + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:focus:disabled + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:disabled + label:hover,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:disabled + label:hover:active {*/
+	/*background-position: 0 -60px;*/
+/*}*/
+/*.inp_field:not(#foo) > input[type=radio]:disabled + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:hover:disabled + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:focus:disabled + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:disabled + label:hover,*/
+/*.inp_field:not(#foo) > input[type=radio]:disabled + label:hover:active {*/
+	/*background-position: 0 -220px;*/
+/*}*/
+/*.inp_field:not(#foo) > input[type=checkbox]:disabled:checked + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:hover:disabled:checked + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:focus:disabled:checked + label,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:disabled:checked + label:hover,*/
+/*.inp_field:not(#foo) > input[type=checkbox]:disabled:checked + label:hover:active {*/
+	/*background-position: 0 -140px;*/
+/*}*/
+/*.inp_field:not(#foo) > input[type=radio]:disabled:checked + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:hover:disabled:checked + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:focus:disabled:checked + label,*/
+/*.inp_field:not(#foo) > input[type=radio]:disabled:checked + label:hover,*/
+/*.inp_field:not(#foo) > input[type=radio]:disabled:checked + label:hover:active {*/
+	/*background-position: 0 -300px;*/
+/*}*/
+
+/*fieldset[dir=rtl] .inp_field > input {*/
+	/*left: auto;*/
+	/*right: 0;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input + label {*/
+	/*background-position: 100% -160px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio] + label {*/
+	/*background-position: 100% -160px;*/
+/*}*/
+
+/* Checked styles */
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:checked + label {*/
+	/*background-position: 100% -239px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:checked + label {*/
+	/*background-position: 100% -80px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:hover:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:focus:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:checked + label:hover,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:focus:checked + label {*/
+	/*background-position: 100% -100px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:hover:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:focus:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:checked + label:hover,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:focus:checked + label {*/
+	/*background-position: 100% -260px;*/
+/*}*/
+
+/* Hover & Focus styles */
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:hover + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:focus + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox] + label:hover {*/
+	/*background-position: 100% -20px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:hover + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:focus + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio] + label:hover {*/
+	/*background-position: 100% -180px;*/
+/*}*/
+
+/* Active styles */
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:active + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox] + label:hover:active {*/
+	/*background-position: 100% -40px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:active + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio] + label:hover:active {*/
+	/*background-position: 100% -200px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:active:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:checked + label:hover:active {*/
+	/*background-position: 100% -120px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:active:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:checked + label:hover:active {*/
+	/*background-position: 100% -280px;*/
+/*}*/
+
+/* Disabled styles */
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:disabled + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:hover:disabled + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:focus:disabled + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:disabled + label:hover,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:disabled + label:hover:active {*/
+	/*background-position: 100% -60px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:disabled + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:hover:disabled + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:focus:disabled + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:disabled + label:hover,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:disabled + label:hover:active {*/
+	/*background-position: 100% -220px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:disabled:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:hover:disabled:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:focus:disabled:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:disabled:checked + label:hover,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=checkbox]:disabled:checked + label:hover:active {*/
+	/*background-position: 100% -140px;*/
+/*}*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:disabled:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:hover:disabled:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:focus:disabled:checked + label,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:disabled:checked + label:hover,*/
+/*fieldset[dir=rtl] .inp_field:not(#foo) > input[type=radio]:disabled:checked + label:hover:active {*/
+	/*background-position: 100% -300px;*/
+/*}*/

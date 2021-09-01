@@ -1,0 +1,20 @@
+
+h1. getBcc
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.getBcc()
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[]

@@ -1,0 +1,20 @@
+
+h1. getTos
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.getTos()
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[]
