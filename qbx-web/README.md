@@ -1,7 +1,5 @@
 ##Project QBX
 
-###JIRA Link:
-[qbtech.atlassian.net](https://qbtech.atlassian.net)
 
 ###Technologies required:
 1. Java Development Kit (preferably oracle jdk 1.7 and latest update, current 51, openjdk can cause problems)
@@ -13,8 +11,6 @@
 ###Code Base
 1. Download and install Git.
 2. Right the folder which you want to be the home for the codebase, and choose Git Bash.(For integration of IntelliJ with Git, refer to  the section below _Setting Up the Environment->IntelliJ_ point 4 onward)
-3. Paste `git clone git@bitbucket.org:abaziz/qbx.git`
-4. Give the password when prompted.
     
 ###Valid Project
 - Working code directory is `qbx\qbx-web`.
